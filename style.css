@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: one;
+    src: url(./1.woff2);
+}
+
+@font-face {
+    font-family:two ;
+    src: url(2.woff2);
+}
+
+@font-face {
+    font-family:three ;
+    src: url(3.woff2);
+}
+
+@font-face {
+    font-family:four ;
+    src: url(4.woff2);
+}
+
+@font-face {
+    font-family:five ;
+    src: url(5.woff2);
+}
+
+@font-face {
+    font-family:six ;
+    src: url(6.);
+}
+
+@font-face {
+    font-family:seven ;
+    src: url(7.woff2);
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.page1{
+    background: url(hero_desktop.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 97%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mid img{
+    width: 70px;
+}
+
+.left-nav select{
+    padding: 5px 10px;
+    font-family: montserrat;
+    font-weight: 600;
+    background-color: rgba(95, 95, 95, 0.108);
+    color: white;
+    border: none;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    /* position: fixed; */
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    font-family: five;
+   font-size: 1.3vw;
+   color: white;
+}
+
+.right-nav button{
+    font-family: two;
+    font-size: 1.2vw;
+    padding: 8px 12px;
+    border: none;
+    background-color: rgb(217, 20, 2);
+    color: white;
+    border-radius: 20px;
+}
+
+.right-nav button:hover{
+    background-color: rgba(255, 0, 0, 0.92);
+    color: rgb(255, 255, 255);
+}
+
+#but1{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.826);
+}
+
+#but1:hover{
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+}
+.right-nav{
+    display: flex;
+    gap: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    font-family: five;
+}
+
+main h1{
+    font-size: 2.8vw;
+    color: white;
+}
+
+.inputs{
+    padding: 8px 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 3px solid rgb(0, 102, 255);
+    border-radius: 30px;
+}
+
+.inputs i{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.852);
+}
+
+.inputs #arrow:hover{
+    background-color: orangered;
+}
+
+#arrow{
+    background-color: rgb(235, 12, 12);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 30px;
+}
+
+.inputs input{
+    border: none;
+    width: 330px;
+    font-family: poppins;
+    font-weight: 500;
+    outline: none;
+}
+
+main button{
+   padding: 7px 12px;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   font-size: 13px;
+    font-family: poppins;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+main button i{
+    font-size: 16px;
+}
+
+main button:hover{
+    background-color: wheat;
+}
+
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box1{
+    width: 18%;
+    font-family: five;
+    text-align: center;
+}
+
+.para{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.para p{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.para button{
+    border: none;
+    color: rgb(255, 21, 0);
+    font-size: 18px;
+    font-family: seven;
+    font-weight: 1000;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.page3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.page3 .left{
+    flex-basis: 30%;
+}
+
+.left h1{
+    font-family: poppins;
+    font-size: 2.6vw;
+    line-height: 2.9vw;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.heads{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heads h4{
+    font-size: 22px;
+    font-family: five;
+}
+
+.heads p{
+    font-family: one;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.785);
+}
+
+.right img{
+    height: 500px;
+}
+
+.left button{
+    width: 40%;
+    height: 40px;
+    font-family: one;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(255, 21, 0);
+    color: white;
+    border-radius: 30px;
+}
+
+.left button:hover{
+    background-color: rgb(232, 88, 5);
+}
+
+.page4{
+    margin-top: 70px;
+    padding: 0 10px;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.choice img{
+    width: 450px;
+}
+
+.choice{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.small-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-details h1{
+    font-family: one;
+    font-size: 1.8vw;
+}
+
+.small-details a{
+    color: black;
+    font-size: 1.5vw;
+    font-family: six;
+}
+
+.choice img:hover{
+    scale: 1.1;
+}
+
+.page5{
+    margin-top: 100px;
+}
+
+.page5 h1{
+    font-family: four;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: -1px;
+}
+
+.page5 h1 span{
+    position: relative;
+    padding: 10px 0;
+}
+
+.page5 h1 span::after{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+}
+
+.dishes{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #f54323;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.no-of-dishes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 20px;
+}
+
+.item1 details:hover{
+    scale: 1.2;
+}
+
+.items{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item1 details >img{
+    width: 200px;
+    border: 1px solid white;
+}
+
+.dish1 >h1{
+    color: white;
+}
+
+.dish1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item1 details summary{
+    font-family: montserrat;
+    font-size: 1.4vw;
+    font-family: three;
+    color: wheat;
+}
+
+.item1 details .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: poppins;
+}
+
+.item1 details .info h4{
+    font-size: 1vw;
+}
+
+.item1 details .info button{
+    border: none;
+    font-family: five;
+    color: white;
+    background-color: rgb(0, 76, 255);
+    padding: 5px 5px;
+}
+
+.item1 details .info button:hover{
+    background-color: blue;
+}
+
+.item1 details .info{
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 5px 0;
+}
+
+.item1 details{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: montserrat;
+    background-color: black;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.footer >h2{
+    font-weight: 700;
+    color: white;
+}
+
+.footer .icons i{
+    /* color: white; */
+    font-size: 18px;
+    padding: 5px 5px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.footer .icons i:hover{
+    background-color: rgb(213, 185, 131);
+    scale: 1.2;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
